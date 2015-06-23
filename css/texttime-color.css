@@ -22,6 +22,10 @@
     font-family:capsuula_webfont;
     src:url(../font/captureit_ubasic/Capsuula-webfont.ttf) format('truetype');}
 	*/
+	
+	.ui-navbar li .ui-btn { 
+	font-size: 1.4em;
+    line-height: 1.5; }
 
 div#preview {
     margin:auto;

@@ -5,10 +5,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/themes/pebble-light.min.css" />
-	<link rel="stylesheet" href="css/texttime-color.css" />
   	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
 	<link rel="stylesheet" href="colorpicker/jquery.simplecolorpicker.css">
+	<link rel="stylesheet" href="css/texttime-color.css" />
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
@@ -237,11 +237,11 @@
 					</select>
 				</div>
 				
-				<div data-role="footer" data-position="fixed">
+				<div data-role="footer" data-position="fixed" data-tap-toggle="false">
 					<div data-role="navbar">
 					<ul>
-					  <li><button data-theme="b" id="cancel" onclick="return cancelForm();">Cancel</button></li>
-					  <li><button data-theme="b" id="submit" onclick="return submitForm();">Submit</button></li>
+					  <li><button data-theme="b" id="cancel" onclick="cancelForm();">Cancel</button></li>
+					  <li><button data-theme="b" id="submit" onclick="submitForm();">Submit</button></li>
 					</ul>
 				  </div>
 				</div>
