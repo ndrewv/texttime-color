@@ -26,13 +26,69 @@
 	.ui-navbar li .ui-btn { 
 	font-size: 1em;
     line-height: 1.5; }
+	
+div#pebbleTime {
+	margin: auto;
+    width: 230px;
+    height: 208px;
+}
+div#outerRight {
+   background: grey;
+    width: 10px;
+    height: 244px;
+    margin: .5em 0;
+    border-radius:  0 1em  1em 0 / 0 50% 50% 0;
+}
+
+div#outerLeft {
+   background: grey;
+    width: 10px;
+    height: 244px;
+    margin: .5em 0;
+    border-radius: 1em 0 0 1em / 50% 0 0 50%;
+}
+
+div#outerFrame {
+    width: 210px;
+    height: 260px;
+    background: grey;
+    border-radius: 50% 50% 50% 50% / .5em .5em .5em .5em;
+}
+
+div#wrapper {
+    width: 176px;
+    height: 208px;
+}
+
+div#innerFrame {
+    position: relative;
+    background: #000;
+    width: 164px;
+    height: 208px;
+    border-radius: 50% 50% 50% 50% / .4em .4em .4em .4em;
+}
+
+div#innerLeft {
+   background: #000;
+    width: 6px;
+    height: 196px;
+    margin: .4em 0;
+    border-radius: .4em 0 0 .4em / 50% 0 0 50%;
+}
+
+div#innerRight {
+  background: #000;
+    width: 6px;
+    height: 196px;
+    margin: .4em 0;
+    border-radius:  0 .4em .4em 0 / 0 50% 50% 0;
+}
 
 div#preview {
-    margin:auto;
     width: 144px;
     height: 168px;
-    outline: 1px solid;
-    background: #000000;
+    background: #a5a5a5;
+    border-radius: 5px;
 }
 
 #preview div.line {
@@ -41,6 +97,17 @@ div#preview {
     float: left;
     text-align: center;
     color: #ffffff;
+}
+
+.center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left {
+ float: left;   
 }
 
 /*

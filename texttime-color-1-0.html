@@ -21,80 +21,91 @@
 			<div id="textDiv"></div>
 			<div data-role="content">
 			<div data-role="fieldcontain">
-				<div id="preview">
-					<div class="line" id="line_1" data-line="1">twelve</div>
-					<div class="line" id="line_2" data-line="2">thirty</div>
-					<div class="line" id="line_3" data-line="3">seven</div>
-					<div class="line" id="line_4" data-line="4">jun 13</div>
+			<div id="pebbleTime">
+				<div id="outerLeft" class="left"></div>
+					<div id="outerFrame" class="left">
+						<div id="wrapper" class="center">
+							<div id="innerLeft" class="left"></div>
+							<div id="innerFrame" class="left">
+								<div id="preview" class="center">
+									<div class="line" id="line_1" data-line="1">twelve</div>
+									<div class="line" id="line_2" data-line="2">thirty</div>
+									<div class="line" id="line_3" data-line="3">seven</div>
+									<div class="line" id="line_4" data-line="4">jun 13</div>
+								</div>
+							</div>
+							<div id="innerRight" class="left"></div>
+						</div>
+					</div>
+				<div id="outerRight" class="left"></div>
 				</div>
-			</div>
 			<div data-role="fieldcontain">		
 				<label for="background">Background:</label>
 				<select name="background" id="background" data-colorselector="true" data-role="none">
 					<option data-color="#000000" value="192">Black</option>
-					<option data-color="#555555" value="213">Dark Gray</option>
-					<option data-color="#aaaaaa" value="234">Light Gray</option>
-					<option data-color="#ffffff" value="255">White</option>
-					<option data-color="#aa5555" value="229">Rose Vale</option>
-					<option data-color="#550000" value="208">Bulgarian Rose</option>
-					<option data-color="#aa0000" value="224">Candy Apple Red</option>
-					<option data-color="#ff0000" value="240">Red</option>
-					<option data-color="#ff5555" value="245">Sunset Orange</option>
-					<option data-color="#ffaaaa" value="250">Melon</option>
-					<option data-color="#ff5500" value="244">Orange</option>
-					<option data-color="#aa5500" value="228">Windsor Tan</option>
-					<option data-color="#ffaa55" value="249">Rajah</option>
-					<option data-color="#ffaa00" value="248">Chrome Yellow</option>
-					<option data-color="#aaaa55" value="233">Brass</option>
-					<option data-color="#555500" value="212">Army Green</option>
-					<option data-color="#aaaa00" value="232">Limerick</option>
-					<option data-color="#ffff00" value="252">Yellow</option>
-					<option data-color="#ffff55" value="253">Icterine</option>
-					<option data-color="#ffffaa" value="254">Pastel Yellow</option>
-					<option data-color="#aaff00" value="236">Spring Bud</option>
-					<option data-color="#55aa00" value="216">Kelly Green</option>
-					<option data-color="#aaff55" value="237">Inchworm</option>
-					<option data-color="#55ff00" value="220">Bright Green</option>
-					<option data-color="#55aa55" value="217">May Green</option>
-					<option data-color="#005500" value="196">Dark Green</option>
-					<option data-color="#00aa00" value="200">Islamic Green</option>
-					<option data-color="#00ff00" value="204">Green</option>
-					<option data-color="#55ff55" value="221">Screamin Green</option>
-					<option data-color="#aaffaa" value="238">Mint Green</option>
-					<option data-color="#00ff55" value="205">Malachite</option>
-					<option data-color="#00aa55" value="201">Jaeger Green</option>
-					<option data-color="#55ffaa" value="222">Medium Aquamarine</option>
-					<option data-color="#00ffaa" value="206">Spring Green</option>
-					<option data-color="#55aaaa" value="218">Cadet Blue</option>
-					<option data-color="#005555" value="197">Midnight Green</option>
-					<option data-color="#00aaaa" value="202">Tiffany Blue</option>
-					<option data-color="#00ffff" value="207">Cyan</option>
-					<option data-color="#55ffff" value="223">Electric Blue</option>
-					<option data-color="#aaffff" value="239">Celeste</option>
-					<option data-color="#00aaff" value="203">Vivid Cerulean</option>
-					<option data-color="#0055aa" value="198">Cobalt Blue</option>
-					<option data-color="#55aaff" value="219">Picton Blue</option>
-					<option data-color="#0055ff" value="199">Blue Moon</option>
-					<option data-color="#5555aa" value="214">Liberty</option>
 					<option data-color="#000055" value="193">Oxford Blue</option>
 					<option data-color="#0000aa" value="194">Duke Blue</option>
 					<option data-color="#0000ff" value="195">Blue</option>
-					<option data-color="#5555ff" value="215">Light Blue</option>
-					<option data-color="#aaaaff" value="235">Baby Blue</option>
-					<option data-color="#5500ff" value="211">Electric Ultramarine</option>
-					<option data-color="#5500aa" value="210">Indigo</option>
-					<option data-color="#aa55ff" value="231">Lavender Indigo</option>
-					<option data-color="#aa00ff" value="227">vivid Violet</option>
-					<option data-color="#aa55aa" value="230">Purpureus</option>
+					<option data-color="#005500" value="196">Dark Green</option>
+					<option data-color="#005555" value="197">Midnight Green</option>
+					<option data-color="#0055aa" value="198">Cobalt Blue</option>
+					<option data-color="#0055ff" value="199">Blue Moon</option>
+					<option data-color="#550000" value="208">Bulgarian Rose</option>
 					<option data-color="#550055" value="209">Imperial Purple</option>
-					<option data-color="#aa00aa" value="226">Purple</option>
-					<option data-color="#ff00ff" value="243">Magenta</option>
-					<option data-color="#ff55ff" value="247">Shocking Pink</option>
-					<option data-color="#ffaaff" value="251">Rich Lavender</option>
-					<option data-color="#ff00aa" value="242">Fashion Magenta</option>
+					<option data-color="#5500aa" value="210">Indigo</option>
+					<option data-color="#5500ff" value="211">Electric Ultramarine</option>
+					<option data-color="#555500" value="212">Army Green</option>
+					<option data-color="#555555" value="213">Dark Gray</option>
+					<option data-color="#5555aa" value="214">Liberty</option>
+					<option data-color="#5555ff" value="215">Light Blue</option>
+					<option data-color="#aa0000" value="224">Candy Apple Red</option>
 					<option data-color="#aa0055" value="225">Jazz Berry Jam</option>
-					<option data-color="#ff55aa" value="246">Brilliant Rose</option>
+					<option data-color="#aa00aa" value="226">Purple</option>
+					<option data-color="#aa00ff" value="227">vivid Violet</option>
+					<option data-color="#aa5500" value="228">Windsor Tan</option>
+					<option data-color="#aa5555" value="229">Rose Vale</option>
+					<option data-color="#aa55aa" value="230">Purpureus</option>
+					<option data-color="#aa55ff" value="231">Lavender Indigo</option>
+					<option data-color="#ff0000" value="240">Red</option>
 					<option data-color="#ff0055" value="241">Folly</option>
+					<option data-color="#ff00aa" value="242">Fashion Magenta</option>
+					<option data-color="#ff00ff" value="243">Magenta</option>
+					<option data-color="#ff5500" value="244">Orange</option>
+					<option data-color="#ff5555" value="245">Sunset Orange</option>
+					<option data-color="#ff55aa" value="246">Brilliant Rose</option>
+					<option data-color="#ff55ff" value="247">Shocking Pink</option>
+					<option data-color="#00aa00" value="200">Islamic Green</option>
+					<option data-color="#00aa55" value="201">Jaeger Green</option>
+					<option data-color="#00aaaa" value="202">Tiffany Blue</option>
+					<option data-color="#00aaff" value="203">Vivid Cerulean</option>
+					<option data-color="#00ff00" value="204">Green</option>
+					<option data-color="#00ff55" value="205">Malachite</option>
+					<option data-color="#00ffaa" value="206">Spring Green</option>
+					<option data-color="#00ffff" value="207">Cyan</option>
+					<option data-color="#55aa00" value="216">Kelly Green</option>
+					<option data-color="#55aa55" value="217">May Green</option>
+					<option data-color="#55aaaa" value="218">Cadet Blue</option>
+					<option data-color="#55aaff" value="219">Picton Blue</option>
+					<option data-color="#55ff00" value="220">Bright Green</option>
+					<option data-color="#55ff55" value="221">Screamin Green</option>
+					<option data-color="#55ffaa" value="222">Medium Aquamarine</option>
+					<option data-color="#55ffff" value="223">Electric Blue</option>
+					<option data-color="#aaaa00" value="232">Limerick</option>
+					<option data-color="#aaaa55" value="233">Brass</option>
+					<option data-color="#aaaaaa" value="234">Light Gray</option>
+					<option data-color="#aaaaff" value="235">Baby Blue</option>
+					<option data-color="#aaff00" value="236">Spring Bud</option>
+					<option data-color="#aaff55" value="237">Inchworm</option>
+					<option data-color="#aaffaa" value="238">Mint Green</option>
+					<option data-color="#aaffff" value="239">Celeste</option>
+					<option data-color="#ffaa00" value="248">Chrome Yellow</option>
+					<option data-color="#ffaa55" value="249">Rajah</option>
+					<option data-color="#ffaaaa" value="250">Melon</option>
+					<option data-color="#ffaaff" value="251">Rich Lavender</option>
+					<option data-color="#ffff00" value="252">Yellow</option>
+					<option data-color="#ffff55" value="253">Icterine</option>
+					<option data-color="#ffffaa" value="254">Pastel Yellow</option>
+					<option data-color="#ffffff" value="255">White</option>
 				</select>
 			</div>
 			<div data-role="fieldcontain">
