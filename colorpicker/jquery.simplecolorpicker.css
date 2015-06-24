@@ -22,7 +22,7 @@
   float: left;
 
   min-width: 200px;
-  max-width: 309px; /* @popover-max-width = 276px + 7 */
+  max-width: 313px; /* @popover-max-width = 276px + 7 */
 
   padding: 5px 0 0 5px;
   margin: 2px 0 0;
