@@ -22,10 +22,10 @@
 			<div data-role="content">
 			<div data-role="fieldcontain">
 				<div id="preview">
-					<div class="line" id="line_1">twelve</div>
-					<div class="line" id="line_2">thirty</div>
-					<div class="line" id="line_3">seven</div>
-					<div class="line" id="line_4">jun 13</div>
+					<div class="line" id="line_1" data-line="1">twelve</div>
+					<div class="line" id="line_2" data-line="2">thirty</div>
+					<div class="line" id="line_3" data-line="3">seven</div>
+					<div class="line" id="line_4" data-line="4">jun 13</div>
 				</div>
 			</div>
 			<div data-role="fieldcontain">		
@@ -254,6 +254,18 @@
 
      $('select[name="background"]').simplecolorpicker({picker: true});
 	 $('select[name="foreground"]').simplecolorpicker({picker: true});
+	 
+	 $('#background').on('change', function() {
+  $('#preview').css("background",$(this).find(":selected").data("color"));
+});
+
+function changeLine(color){
+$('[data-line]').each(function(){$(this).css("color",color)});
+}
+
+$('#foreground').on('change', function() {
+changeLine($(this).find(":selected").data("color"));
+});
 	
 		function getQueryParam(variable, default_) {
 		    var query = window.location.search.substring(1);
