@@ -1,64 +1,43 @@
-@font-face{ font-family:20db_webfont; src:url(../font/20db_regular_ubasic/20db-webfont.ttf) format('truetype'); }
+/*
 @font-face{ font-family:archistico_b_webfont; src:url(../font/archistico_bold_ubasic/Archistico_Bold-webfont.ttf) format('truetype'); }
-@font-face{ font-family:archistico_webfont; src:url(../font/archistico_normal_ubasic/Archistico_Simple-webfont.ttf) format('truetype'); }
 @font-face{ font-family:bebas_webfont; src:url(../font/bebas_regular_ubasic/BEBAS___-webfont.ttf) format('truetype'); }
 @font-face{ font-family:bostontraffic_webfont; src:url(../font/bostontraffic_regular_ubasic/boston_traffic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:capsuula_webfont; src:url(../font/capsuula_regular_ubasic/Capsuula-webfont.ttf) format('truetype'); }
 @font-face{ font-family:captureit2_webfont; src:url(../font/captureit2_regular_ubasic/Capture_it_2-webfont.ttf) format('truetype'); }
 @font-face{ font-family:captureit_webfont; src:url(../font/captureit_regular_ubasic/Capture_it-webfont.ttf) format('truetype'); }
 @font-face{ font-family:danielbl_webfont; src:url(../font/daniel_black_ubasic/Daniel-Black-webfont.ttf) format('truetype'); }
-@font-face{ font-family:daniel_b_webfont; src:url(../font/daniel_bold_ubasic/danielbd-webfont.ttf) format('truetype'); }
-@font-face{ font-family:daniel_webfont; src:url(../font/daniel_regular_ubasic/daniel-webfont.ttf) format('truetype'); }
-@font-face{ font-family:destencil_webfont; src:url(../font/destencilnf_regular_ubasic/DESTENCI-webfont.ttf) format('truetype'); }
 @font-face{ font-family:digitaldream_fn_webfont; src:url(../font/digitaldreamfatnarrow_regular_ubasic/DIGITALDREAMFATNARROW-webfont.ttf) format('truetype'); }
 @font-face{ font-family:digitaldream_fsn_webfont; src:url(../font/digitaldreamfatskewnarrow_regular_ubasic/DIGITALDREAMFATSKEWNARROW-webfont.ttf) format('truetype'); }
 @font-face{ font-family:digitaldream_fsr_webfont; src:url(../font/digitaldreamfatskew_regular_ubasic/DIGITALDREAMFATSKEW-webfont.ttf) format('truetype'); }
 @font-face{ font-family:digitaldream_fr_webfont; src:url(../font/digitaldreamfat_regular_ubasic/DIGITALDREAMFAT-webfont.ttf) format('truetype'); }
 @font-face{ font-family:digitaldream_nr_webfont; src:url(../font/digitaldreamnarrow_regular_ubasic/DIGITALDREAMNARROW-webfont.ttf) format('truetype'); }
-@font-face{ font-family:digitaldream_sn_webfont; src:url(../font/digitaldreamskewnarrow_regular_ubasic/DIGITALDREAMSKEWNARROW-webfont.ttf) format('truetype'); }
 @font-face{ font-family:digitaldream_sr_webfont; src:url(../font/digitaldreamskew_regular_ubasic/DIGITALDREAMSKEW-webfont.ttf) format('truetype'); }
 @font-face{ font-family:digitaldream_r_webfont; src:url(../font/digitaldream_regular_ubasic/DIGITALDREAM-webfont.ttf) format('truetype'); }
 @font-face{ font-family:diner_fatt_webfont; src:url(../font/diner-fatt_regular_ubasic/Diner-Fatt-webfont.ttf) format('truetype'); }
 @font-face{ font-family:diner_obese_webfont; src:url(../font/diner-obese_regular_ubasic/Diner-Obese-webfont.ttf) format('truetype'); }
 @font-face{ font-family:diner_webfont; src:url(../font/diner-regular_regular_ubasic/Diner-Regular-webfont.ttf) format('truetype'); }
 @font-face{ font-family:diner_skinny_webfont; src:url(../font/diner-skinny_regular_ubasic/Diner-Skinny-webfont.ttf) format('truetype'); }
-@font-face{ font-family:distantgalaxy_webfont; src:url(../font/distantgalaxy_regular_ubasic/DISTGRG_-webfont.ttf) format('truetype'); }
-@font-face{ font-family:duplexide_webfont; src:url(../font/duplexide_regular_ubasic/Duplexide-webfont.ttf) format('truetype'); }
-@font-face{ font-family:enigmatic_b_webfont; src:url(../font/enigmatic_bold_ubasic/EnigmaB_2-webfont.ttf) format('truetype'); }
 @font-face{ font-family:enigmatic_i_webfont; src:url(../font/enigmatic_italic_ubasic/Enigma_2i-webfont.ttf) format('truetype'); }
-@font-face{ font-family:enigmatic_webfont; src:url(../font/enigmatic_regular_ubasic/Enigma__2-webfont.ttf) format('truetype'); }
 @font-face{ font-family:firecat_webfont; src:url(../font/firecat_medium_ubasic/FirecatMedium-webfont.ttf) format('truetype'); }
-@font-face{ font-family:furore_webfont; src:url(../font/furore_regular_ubasic/Furore-webfont.ttf) format('truetype'); }
 @font-face{ font-family:gooddog_webfont; src:url(../font/gooddog_regular_ubasic/GoodDog-webfont.ttf) format('truetype'); }
 @font-face{ font-family:heavydata_webfont; src:url(../font/heavydata_regular_ubasic/heavy_data-webfont.ttf) format('truetype'); }
 @font-face{ font-family:hetelica_webfont; src:url(../font/hetilica_bold_ubasic/hetilica-webfont.ttf) format('truetype'); }
-@font-face{ font-family:indubitably_webfont; src:url(../font/indubitably_regular_ubasic/INDUBITA-webfont.ttf) format('truetype'); }
 @font-face{ font-family:intruderalert_webfont; src:url(../font/intruderalert_regular_ubasic/Intruder-webfont.ttf) format('truetype'); }
-@font-face{ font-family:juice_bi_webfont; src:url(../font/juice_bolditalic_ubasic/JUICE_Bold_Italic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:juice_b_webfont; src:url(../font/juice_bold_ubasic/JUICE_Bold-webfont.ttf) format('truetype'); }
-@font-face{ font-family:juice_i_webfont; src:url(../font/juice_italic_ubasic/JUICE_Italic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:juice_li_webfont; src:url(../font/juice_lightitalic_ubasic/JUICE_Light_Italic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:juice_l_webfont; src:url(../font/juice_light_ubasic/JUICE_Light-webfont.ttf) format('truetype'); }
 @font-face{ font-family:juice_r_webfont; src:url(../font/juice_regular_ubasic/JUICE_Regular-webfont.ttf) format('truetype'); }
 @font-face{ font-family:liquidism_webfont; src:url(../font/liquidism_regular_ubasic/Liquidism-webfont.ttf) format('truetype'); }
-@font-face{ font-family:majorsnafu_webfont; src:url(../font/majorsnafu_regular_ubasic/major_shift-webfont.ttf) format('truetype'); }
 @font-face{ font-family:minotaur_webfont; src:url(../font/minotaur_phatte_ubasic/minotaur-webfont.ttf) format('truetype'); }
-@font-face{ font-family:origicide_webfont; src:url(../font/origicide_regular_ubasic/Origicide-webfont.ttf) format('truetype'); }
-@font-face{ font-family:pleasantlyplump_webfont; src:url(../font/pleasantlyplump_normal_ubasic/PLUMP-webfont.ttf) format('truetype'); }
 @font-face{ font-family:print_b_webfont; src:url(../font/printbold_regular_ubasic/PrintBold-webfont.ttf) format('truetype'); }
 @font-face{ font-family:print_c_webfont; src:url(../font/printclearly_regular_ubasic/PrintClearly-webfont.ttf) format('truetype'); }
 @font-face{ font-family:print_d_webfont; src:url(../font/printdashed_regular_ubasic/PrintDashed-webfont.ttf) format('truetype'); }
-@font-face{ font-family:qikki_webfont; src:url(../font/qikkireg_regular_ubasic/Qarmic_sans_Abridged-webfont.ttf) format('truetype'); }
-@font-face{ font-family:quickendjerk_webfont; src:url(../font/quickendjerk_regular_ubasic/quick_end_jerk-webfont.ttf) format('truetype'); }
 @font-face{ font-family:radioland_s_webfont; src:url(../font/radiolandslim_regular_ubasic/RADIOLANDSLIM-webfont.ttf) format('truetype'); }
 @font-face{ font-family:radioland_webfont; src:url(../font/radioland_regular_ubasic/RADIOLAND-webfont.ttf) format('truetype'); }
-@font-face{ font-family:redressed_webfont; src:url(../font/redressed_regular_ubasic/Redressed-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_bli_webfont; src:url(../font/roboto_blackitalic_ubasic/Roboto-BlackItalic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_bl_webfont; src:url(../font/roboto_black_ubasic/Roboto-Black-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_bci_webfont; src:url(../font/roboto_boldcondenseditalic_ubasic/RobotoCondensed-BoldItalic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_bc_webfont; src:url(../font/roboto_boldcondensed_ubasic/RobotoCondensed-Bold-webfont.ttf) format('truetype'); }
-@font-face{ font-family:roboto_bi_webfont; src:url(../font/roboto_bolditalic_ubasic/Roboto-BoldItalic-webfont.ttf) format('truetype'); }
-@font-face{ font-family:roboto_b_webfont; src:url(../font/roboto_bold_ubasic/Roboto-Bold-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_ci_webfont; src:url(../font/roboto_condenseditalic_ubasic/RobotoCondensed-Italic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_c_webfont; src:url(../font/roboto_condensed_ubasic/RobotoCondensed-Regular-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_i_webfont; src:url(../font/roboto_italic_ubasic/Roboto-Italic-webfont.ttf) format('truetype'); }
@@ -66,8 +45,6 @@
 @font-face{ font-family:roboto_lc_webfont; src:url(../font/roboto_lightcondensed_ubasic/RobotoCondensed-Light-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_li_webfont; src:url(../font/roboto_lightitalic_ubasic/Roboto-LightItalic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_l_webfont; src:url(../font/roboto_light_ubasic/Roboto-Light-webfont.ttf) format('truetype'); }
-@font-face{ font-family:roboto_mi_webfont; src:url(../font/roboto_mediumitalic_ubasic/Roboto-MediumItalic-webfont.ttf) format('truetype'); }
-@font-face{ font-family:roboto_m_webfont; src:url(../font/roboto_medium_ubasic/Roboto-Medium-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_r_webfont; src:url(../font/roboto_regular_ubasic/Roboto-Regular-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_ti_webfont; src:url(../font/roboto_thinitalic_ubasic/Roboto-ThinItalic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:roboto_t_webfont; src:url(../font/roboto_thin_ubasic/Roboto-Thin-webfont.ttf) format('truetype'); }
@@ -79,24 +56,20 @@
 @font-face{ font-family:wondercomici_r_webfont; src:url(../font/sfwondercomicinline_regular_ubasic/SF_Wonder_Comic_Inline-webfont.ttf) format('truetype'); }
 @font-face{ font-family:wondercomic_bi_webfont; src:url(../font/sfwondercomic_bolditalic_ubasic/SF_Wonder_Comic_Bold_Italic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:wondercomic_b_webfont; src:url(../font/sfwondercomic_bold_ubasic/SF_Wonder_Comic_Bold-webfont.ttf) format('truetype'); }
-@font-face{ font-family:wondercomic_i_webfont; src:url(../font/sfwondercomic_italic_ubasic/SF_Wonder_Comic_Italic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:wondercomic_r_webfont; src:url(../font/sfwondercomic_regular_ubasic/SF_Wonder_Comic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:silkscreenex_b_webfont; src:url(../font/silkscreenexpanded_bold_ubasic/slkscreb-webfont.ttf) format('truetype'); }
 @font-face{ font-family:silkscreenex_n_webfont; src:url(../font/silkscreenexpanded_normal_ubasic/slkscre-webfont.ttf) format('truetype'); }
 @font-face{ font-family:silkscreen_b_webfont; src:url(../font/silkscreen_bold_ubasic/slkscrb-webfont.ttf) format('truetype'); }
-@font-face{ font-family:silkscreen_n_webfont; src:url(../font/silkscreen_normal_ubasic/slkscr-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_100i_webfont; src:url(../font/sinkinsans_100thinitalic_ubasic/SinkinSans-100ThinItalic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_100_webfont; src:url(../font/sinkinsans_100thin_ubasic/SinkinSans-100Thin-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_200i_webfont; src:url(../font/sinkinsans_200xlightitalic_ubasic/SinkinSans-200XLightItalic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_200_webfont; src:url(../font/sinkinsans_200xlight_ubasic/SinkinSans-200XLight-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_300i_webfont; src:url(../font/sinkinsans_300lightitalic_ubasic/SinkinSans-300LightItalic-webfont.ttf) format('truetype'); }
-@font-face{ font-family:sinkinsans_300_webfont; src:url(../font/sinkinsans_300light_ubasic/SinkinSans-300Light-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_400i_webfont; src:url(../font/sinkinsans_400italic_ubasic/SinkinSans-400Italic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_400_webfont; src:url(../font/sinkinsans_400regular_ubasic/SinkinSans-400Regular-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_500i_webfont; src:url(../font/sinkinsans_500mediumitalic_ubasic/SinkinSans-500MediumItalic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_500_webfont; src:url(../font/sinkinsans_500medium_ubasic/SinkinSans-500Medium-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_600i_webfont; src:url(../font/sinkinsans_600semibolditalic_ubasic/SinkinSans-600SemiBoldItali-webfont.ttf) format('truetype'); }
-@font-face{ font-family:sinkinsans_600_webfont; src:url(../font/sinkinsans_600semibold_ubasic/SinkinSans-600SemiBold-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_700i_webfont; src:url(../font/sinkinsans_700bolditalic_ubasic/SinkinSans-700BoldItalic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_700_webfont; src:url(../font/sinkinsans_700bold_ubasic/SinkinSans-700Bold-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_800i_webfont; src:url(../font/sinkinsans_800blackitalic_ubasic/SinkinSans-800BlackItalic-webfont.ttf) format('truetype'); }
@@ -104,7 +77,6 @@
 @font-face{ font-family:sinkinsans_900i_webfont; src:url(../font/sinkinsans_900xblackitalic_ubasic/SinkinSans-900XBlackItalic-webfont.ttf) format('truetype'); }
 @font-face{ font-family:sinkinsans_900_webfont; src:url(../font/sinkinsans_900xblack_ubasic/SinkinSans-900XBlack-webfont.ttf) format('truetype'); }
 @font-face{ font-family:spincycle_3d_webfont; src:url(../font/spincycle3d_regular_ubasic/spincycle_3d_ot-webfont.ttf) format('truetype'); }
-@font-face{ font-family:spincycle_webfont; src:url(../font/spincycle_regular_ubasic/spincycle_ot-webfont.ttf) format('truetype'); }
 @font-face{ font-family:undercover_webfont; src:url(../font/undercover_regular_ubasic/UNDERCOV-webfont.ttf) format('truetype'); }
 @font-face{ font-family:vanilla_webfont; src:url(../font/vanilla_regular_ubasic/Vanilla-webfont.ttf) format('truetype'); }
 @font-face{ font-family:walkway_webfont; src:url(../font/walkwayblack_regular_ubasic/Walkway_Black-webfont.ttf) format('truetype'); }
@@ -118,16 +90,79 @@
 @font-face{ font-family:walkway_ub_webfont; src:url(../font/walkwayultrabold_regular_ubasic/Walkway_UltraBold-webfont.ttf) format('truetype'); }
 @font-face{ font-family:whiterabbit_webfont; src:url(../font/whiterabbit_regular_ubasic/whitrabt-webfont.ttf) format('truetype'); }
 @font-face{ font-family:wideawake_b_webfont; src:url(../font/wideawakeblack_regular_ubasic/Wide_awake_Black-webfont.ttf) format('truetype'); }
+*/
+
+@font-face{ font-family:20db_webfont; src:url(../font/20db_regular_ubasic/20db-webfont.ttf) format('truetype'); }
+@font-face{ font-family:archistico_webfont; src:url(../font/archistico_normal_ubasic/Archistico_Simple-webfont.ttf) format('truetype'); }
+@font-face{ font-family:daniel_b_webfont; src:url(../font/daniel_bold_ubasic/danielbd-webfont.ttf) format('truetype'); }
+@font-face{ font-family:daniel_webfont; src:url(../font/daniel_regular_ubasic/daniel-webfont.ttf) format('truetype'); }
+@font-face{ font-family:destencil_webfont; src:url(../font/destencilnf_regular_ubasic/DESTENCI-webfont.ttf) format('truetype'); }
+@font-face{ font-family:digitaldream_sn_webfont; src:url(../font/digitaldreamskewnarrow_regular_ubasic/DIGITALDREAMSKEWNARROW-webfont.ttf) format('truetype'); }
+@font-face{ font-family:distantgalaxy_webfont; src:url(../font/distantgalaxy_regular_ubasic/DISTGRG_-webfont.ttf) format('truetype'); }
+@font-face{ font-family:duplexide_webfont; src:url(../font/duplexide_regular_ubasic/Duplexide-webfont.ttf) format('truetype'); }
+@font-face{ font-family:enigmatic_b_webfont; src:url(../font/enigmatic_bold_ubasic/EnigmaB_2-webfont.ttf) format('truetype'); }
+@font-face{ font-family:enigmatic_webfont; src:url(../font/enigmatic_regular_ubasic/Enigma__2-webfont.ttf) format('truetype'); }
+@font-face{ font-family:furore_webfont; src:url(../font/furore_regular_ubasic/Furore-webfont.ttf) format('truetype'); }
+@font-face{ font-family:indubitably_webfont; src:url(../font/indubitably_regular_ubasic/INDUBITA-webfont.ttf) format('truetype'); }
+@font-face{ font-family:juice_bi_webfont; src:url(../font/juice_bolditalic_ubasic/JUICE_Bold_Italic-webfont.ttf) format('truetype'); }
+@font-face{ font-family:juice_i_webfont; src:url(../font/juice_italic_ubasic/JUICE_Italic-webfont.ttf) format('truetype'); }
+@font-face{ font-family:majorsnafu_webfont; src:url(../font/majorsnafu_regular_ubasic/major_shift-webfont.ttf) format('truetype'); }
+@font-face{ font-family:origicide_webfont; src:url(../font/origicide_regular_ubasic/Origicide-webfont.ttf) format('truetype'); }
+@font-face{ font-family:pleasantlyplump_webfont; src:url(../font/pleasantlyplump_normal_ubasic/PLUMP-webfont.ttf) format('truetype'); }
+@font-face{ font-family:qikki_webfont; src:url(../font/qikkireg_regular_ubasic/Qarmic_sans_Abridged-webfont.ttf) format('truetype'); }
+@font-face{ font-family:quickendjerk_webfont; src:url(../font/quickendjerk_regular_ubasic/quick_end_jerk-webfont.ttf) format('truetype'); }
+@font-face{ font-family:redressed_webfont; src:url(../font/redressed_regular_ubasic/Redressed-webfont.ttf) format('truetype'); }
+@font-face{ font-family:roboto_bi_webfont; src:url(../font/roboto_bolditalic_ubasic/Roboto-BoldItalic-webfont.ttf) format('truetype'); }
+@font-face{ font-family:roboto_b_webfont; src:url(../font/roboto_bold_ubasic/Roboto-Bold-webfont.ttf) format('truetype'); }
+@font-face{ font-family:roboto_mi_webfont; src:url(../font/roboto_mediumitalic_ubasic/Roboto-MediumItalic-webfont.ttf) format('truetype'); }
+@font-face{ font-family:roboto_m_webfont; src:url(../font/roboto_medium_ubasic/Roboto-Medium-webfont.ttf) format('truetype'); }
+@font-face{ font-family:wondercomic_i_webfont; src:url(../font/sfwondercomic_italic_ubasic/SF_Wonder_Comic_Italic-webfont.ttf) format('truetype'); }
+@font-face{ font-family:silkscreen_n_webfont; src:url(../font/silkscreen_normal_ubasic/slkscr-webfont.ttf) format('truetype'); }
+@font-face{ font-family:sinkinsans_300_webfont; src:url(../font/sinkinsans_300light_ubasic/SinkinSans-300Light-webfont.ttf) format('truetype'); }
+@font-face{ font-family:sinkinsans_600_webfont; src:url(../font/sinkinsans_600semibold_ubasic/SinkinSans-600SemiBold-webfont.ttf) format('truetype'); }
+@font-face{ font-family:spincycle_webfont; src:url(../font/spincycle_regular_ubasic/spincycle_ot-webfont.ttf) format('truetype'); }
 @font-face{ font-family:wideawake_webfont; src:url(../font/wideawake_regular_ubasic/Wide_awake-webfont.ttf) format('truetype'); }
 
 /* google webfonts */
 .bitham .line {font-family:'Montserrat', arial, serif; font-size: 2.125em; font-weight: 400; }
 .bitham #line_1 {font-family:'Montserrat', arial, serif; font-size: 2.125em; font-weight: 700; }
 
+
 /* imported fonts */
 .20db .line {font-family:'20db_webfont', arial, serif; font-size: 2.125em; }
-.archistico_b .line {font-family:'archistico_b_webfont', arial, serif; font-size: 2.125em; }
 .archistico .line {font-family:'archistico_webfont', arial, serif; font-size: 2.125em; }
+.daniel .line {font-family:'daniel_webfont', arial, serif; font-size: 2em; }
+.daniel #line_1 {font-family:'daniel_b_webfont', arial, serif; font-size: 2em; }
+.destencil .line {font-family:'destencil_webfont', arial, serif; font-size: 1.25em; }
+.digitaldream .line {font-family:'digitaldream_sn_webfont', arial, serif; font-size: 1.875em; }
+.distantgalaxy .line {font-family:'distantgalaxy_webfont', arial, serif; font-size: 2em; }
+.duplexide .line {font-family:'duplexide_webfont', arial, serif; font-size: 2.125em; }
+.enigmatic .line {font-family:'enigmatic_webfont', arial, serif; font-size: 2.375em; }
+.enigmatic #line_1 {font-family:'enigmatic_b_webfont', arial, serif; font-size: 2.375em; }
+.furore .line {font-family:'furore_webfont', arial, serif; font-size: 1.875em; }
+.indubitably .line {font-family:'indubitably_webfont', arial, serif; font-size: 1.875em; }
+.juice .line {font-family:'juice_i_webfont', arial, serif; font-size: 2.125em; }
+.juice #line_1 {font-family:'juice_bi_webfont', arial, serif; font-size: 2.125em; }
+.majorsnafu .line {font-family:'majorsnafu_webfont', arial, serif; font-size: 2.125em; }
+.origicide .line {font-family:'origicide_webfont', arial, serif; font-size: 2.125em; }
+.pleasantlyplump .line {font-family:'pleasantlyplump_webfont', arial, serif; font-size: 1.5em; }
+.qikki .line {font-family:'qikki_webfont', arial, serif; font-size: 2.125em; }
+.quickendjerk .line {font-family:'quickendjerk_webfont', arial, serif; font-size: 1.875em; }
+.redressed .line {font-family:'redressed_webfont', arial, serif; font-size: 2.125em; }
+.roboto_italic .line {font-family:'roboto_i_webfont', arial, serif; font-size: 2.125em; }
+.roboto_italic #line_1 {font-family:'roboto_bi_webfont', arial, serif; font-size: 2.125em; }
+.roboto .line {font-family:'roboto_m_webfont', arial, serif; font-size: 2.125em; }
+.roboto #line_1  {font-family:'roboto_b_webfont', arial, serif; font-size: 2.125em; }
+.wondercomic .line {font-family:'wondercomic_i_webfont', arial, serif; font-size: 2.125em; }
+.silkscreen .line {font-family:'silkscreen_n_webfont', arial, serif; font-size: 1.875em; }
+.sinkinsans .line {font-family:'sinkinsans_300_webfont', arial, serif; font-size: 2.125em; }
+.sinkinsans #line_1 {font-family:'sinkinsans_600_webfont', arial, serif; font-size: 2.125em; }
+.spincycle .line {font-family:'spincycle_webfont', arial, serif; font-size: 2.125em; }
+.wideawake .line {font-family:'wideawake_webfont', arial, serif; font-size: 2.125em; }
+
+/*
+.gooddog .line {font-family:'gooddog_webfont', arial, serif; font-size: 2.125em; }
+.archistico_b .line {font-family:'archistico_b_webfont', arial, serif; font-size: 2.125em; }
 .bebas .line {font-family:'bebas_webfont', arial, serif; font-size: 2.125em; }
 .bostontraffic .line {font-family:'bostontraffic_webfont', arial, serif; font-size: 2.125em; }
 .capsuula .line {font-family:'capsuula_webfont', arial, serif; font-size: 2.125em; }
@@ -135,51 +170,35 @@
 .captureit .line {font-family:'captureit_webfont', arial, serif; font-size: 2.125em; }
 .danielbl .line {font-family:'danielbl_webfont', arial, serif; font-size: 2.125em; }
 .daniel_b .line {font-family:'daniel_b_webfont', arial, serif; font-size: 2.125em; }
-.daniel .line {font-family:'daniel_webfont', arial, serif; font-size: 2.125em; }
-.destencil .line {font-family:'destencil_webfont', arial, serif; font-size: 2.125em; }
 .digitaldream_fn .line {font-family:'digitaldream_fn_webfont', arial, serif; font-size: 2.125em; }
 .digitaldream_fsn .line {font-family:'digitaldream_fsn_webfont', arial, serif; font-size: 2.125em; }
 .digitaldream_fsr .line {font-family:'digitaldream_fsr_webfont', arial, serif; font-size: 2.125em; }
 .digitaldream_fr .line {font-family:'digitaldream_fr_webfont', arial, serif; font-size: 2.125em; }
 .digitaldream_nr .line {font-family:'digitaldream_nr_webfont', arial, serif; font-size: 2.125em; }
-.digitaldream_sn .line {font-family:'digitaldream_sn_webfont', arial, serif; font-size: 2.125em; }
 .digitaldream_sr .line {font-family:'digitaldream_sr_webfont', arial, serif; font-size: 2.125em; }
 .digitaldream_r .line {font-family:'digitaldream_r_webfont', arial, serif; font-size: 2.125em; }
 .diner_fatt .line {font-family:'diner_fatt_webfont', arial, serif; font-size: 2.125em; }
 .diner_obese .line {font-family:'diner_obese_webfont', arial, serif; font-size: 2.125em; }
 .diner .line {font-family:'diner_webfont', arial, serif; font-size: 2.125em; }
 .diner_skinny .line {font-family:'diner_skinny_webfont', arial, serif; font-size: 2.125em; }
-.distantgalaxy .line {font-family:'distantgalaxy_webfont', arial, serif; font-size: 2.125em; }
-.duplexide .line {font-family:'duplexide_webfont', arial, serif; font-size: 2.125em; }
 .enigmatic_b .line {font-family:'enigmatic_b_webfont', arial, serif; font-size: 2.125em; }
 .enigmatic_i .line {font-family:'enigmatic_i_webfont', arial, serif; font-size: 2.125em; }
-.enigmatic .line {font-family:'enigmatic_webfont', arial, serif; font-size: 2.125em; }
 .firecat .line {font-family:'firecat_webfont', arial, serif; font-size: 2.125em; }
-.furore .line {font-family:'furore_webfont', arial, serif; font-size: 2.125em; }
-.gooddog .line {font-family:'gooddog_webfont', arial, serif; font-size: 2.125em; }
 .heavydata .line {font-family:'heavydata_webfont', arial, serif; font-size: 2.125em; }
 .hetelica .line {font-family:'hetelica_webfont', arial, serif; font-size: 2.125em; }
-.indubitably .line {font-family:'indubitably_webfont', arial, serif; font-size: 2.125em; }
 .intruderalert .line {font-family:'intruderalert_webfont', arial, serif; font-size: 2.125em; }
 .juice_bi .line {font-family:'juice_bi_webfont', arial, serif; font-size: 2.125em; }
 .juice_b .line {font-family:'juice_b_webfont', arial, serif; font-size: 2.125em; }
-.juice_i .line {font-family:'juice_i_webfont', arial, serif; font-size: 2.125em; }
 .juice_li .line {font-family:'juice_li_webfont', arial, serif; font-size: 2.125em; }
 .juice_l .line {font-family:'juice_l_webfont', arial, serif; font-size: 2.125em; }
 .juice_r .line {font-family:'juice_r_webfont', arial, serif; font-size: 2.125em; }
 .liquidism .line {font-family:'liquidism_webfont', arial, serif; font-size: 2.125em; }
-.majorsnafu .line {font-family:'majorsnafu_webfont', arial, serif; font-size: 2.125em; }
 .minotaur .line {font-family:'minotaur_webfont', arial, serif; font-size: 2.125em; }
-.origicide .line {font-family:'origicide_webfont', arial, serif; font-size: 2.125em; }
-.pleasantlyplump .line {font-family:'pleasantlyplump_webfont', arial, serif; font-size: 2.125em; }
 .print_b .line {font-family:'print_b_webfont', arial, serif; font-size: 2.125em; }
 .print_c .line {font-family:'print_c_webfont', arial, serif; font-size: 2.125em; }
 .print_d .line {font-family:'print_d_webfont', arial, serif; font-size: 2.125em; }
-.qikki .line {font-family:'qikki_webfont', arial, serif; font-size: 2.125em; }
-.quickendjerk .line {font-family:'quickendjerk_webfont', arial, serif; font-size: 2.125em; }
 .radioland_s .line {font-family:'radioland_s_webfont', arial, serif; font-size: 2.125em; }
 .radioland .line {font-family:'radioland_webfont', arial, serif; font-size: 2.125em; }
-.redressed .line {font-family:'redressed_webfont', arial, serif; font-size: 2.125em; }
 .roboto_bli .line {font-family:'roboto_bli_webfont', arial, serif; font-size: 2.125em; }
 .roboto_bl .line {font-family:'roboto_bl_webfont', arial, serif; font-size: 2.125em; }
 .roboto_bci .line {font-family:'roboto_bci_webfont', arial, serif; font-size: 2.125em; }
@@ -188,13 +207,11 @@
 .roboto_b .line {font-family:'roboto_b_webfont', arial, serif; font-size: 2.125em; }
 .roboto_ci .line {font-family:'roboto_ci_webfont', arial, serif; font-size: 2.125em; }
 .roboto_c .line {font-family:'roboto_c_webfont', arial, serif; font-size: 2.125em; }
-.roboto_i .line {font-family:'roboto_i_webfont', arial, serif; font-size: 2.125em; }
 .roboto_lci .line {font-family:'roboto_lci_webfont', arial, serif; font-size: 2.125em; }
 .roboto_lc .line {font-family:'roboto_lc_webfont', arial, serif; font-size: 2.125em; }
 .roboto_li .line {font-family:'roboto_li_webfont', arial, serif; font-size: 2.125em; }
 .roboto_l .line {font-family:'roboto_l_webfont', arial, serif; font-size: 2.125em; }
 .roboto_mi .line {font-family:'roboto_mi_webfont', arial, serif; font-size: 2.125em; }
-.roboto_m .line {font-family:'roboto_m_webfont', arial, serif; font-size: 2.125em; }
 .roboto_r .line {font-family:'roboto_r_webfont', arial, serif; font-size: 2.125em; }
 .roboto_ti .line {font-family:'roboto_ti_webfont', arial, serif; font-size: 2.125em; }
 .roboto_t .line {font-family:'roboto_t_webfont', arial, serif; font-size: 2.125em; }
@@ -206,18 +223,15 @@
 .wondercomici_r .line {font-family:'wondercomici_r_webfont', arial, serif; font-size: 2.125em; }
 .wondercomic_bi .line {font-family:'wondercomic_bi_webfont', arial, serif; font-size: 2.125em; }
 .wondercomic_b .line {font-family:'wondercomic_b_webfont', arial, serif; font-size: 2.125em; }
-.wondercomic_i .line {font-family:'wondercomic_i_webfont', arial, serif; font-size: 2.125em; }
 .wondercomic_r .line {font-family:'wondercomic_r_webfont', arial, serif; font-size: 2.125em; }
 .silkscreenex_b .line {font-family:'silkscreenex_b_webfont', arial, serif; font-size: 2.125em; }
 .silkscreenex_n .line {font-family:'silkscreenex_n_webfont', arial, serif; font-size: 2.125em; }
 .silkscreen_b .line {font-family:'silkscreen_b_webfont', arial, serif; font-size: 2.125em; }
-.silkscreen_n .line {font-family:'silkscreen_n_webfont', arial, serif; font-size: 2.125em; }
 .sinkinsans_100i .line {font-family:'sinkinsans_100i_webfont', arial, serif; font-size: 2.125em; }
 .sinkinsans_100 .line {font-family:'sinkinsans_100_webfont', arial, serif; font-size: 2.125em; }
 .sinkinsans_200i .line {font-family:'sinkinsans_200i_webfont', arial, serif; font-size: 2.125em; }
 .sinkinsans_200 .line {font-family:'sinkinsans_200_webfont', arial, serif; font-size: 2.125em; }
 .sinkinsans_300i .line {font-family:'sinkinsans_300i_webfont', arial, serif; font-size: 2.125em; }
-.sinkinsans_300 .line {font-family:'sinkinsans_300_webfont', arial, serif; font-size: 2.125em; }
 .sinkinsans_400i .line {font-family:'sinkinsans_400i_webfont', arial, serif; font-size: 2.125em; }
 .sinkinsans_400 .line {font-family:'sinkinsans_400_webfont', arial, serif; font-size: 2.125em; }
 .sinkinsans_500i .line {font-family:'sinkinsans_500i_webfont', arial, serif; font-size: 2.125em; }
@@ -231,7 +245,6 @@
 .sinkinsans_900i .line {font-family:'sinkinsans_900i_webfont', arial, serif; font-size: 2.125em; }
 .sinkinsans_900 .line {font-family:'sinkinsans_900_webfont', arial, serif; font-size: 2.125em; }
 .spincycle_3d .line {font-family:'spincycle_3d_webfont', arial, serif; font-size: 2.125em; }
-.spincycle .line {font-family:'spincycle_webfont', arial, serif; font-size: 2.125em; }
 .undercover .line {font-family:'undercover_webfont', arial, serif; font-size: 2.125em; }
 .vanilla .line {font-family:'vanilla_webfont', arial, serif; font-size: 2.125em; }
 .walkway .line {font-family:'walkway_webfont', arial, serif; font-size: 2.125em; }
@@ -245,33 +258,7 @@
 .walkway_ub .line {font-family:'walkway_ub_webfont', arial, serif; font-size: 2.125em; }
 .whiterabbit .line {font-family:'whiterabbit_webfont', arial, serif; font-size: 2.125em; }
 .wideawake_b .line {font-family:'wideawake_b_webfont', arial, serif; font-size: 2.125em; }
-.wideawake .line {font-family:'wideawake_webfont', arial, serif; font-size: 2.125em; }
-
-
-/*@font-face{
-    font-family:20db_webfont;
-    src:url(../font/20db_regular_ubasic/20db-webfont.ttf) format('truetype');}
-	
-@font-face{
-    font-family:archistico_webfont;
-    src:url(../font/archistico_normal_ubasic/Archistico_Simple-webfont.ttf) format('truetype');}
-	
-@font-face{
-    font-family:bebas_webfont;
-    src:url(../font/bebas_regular_ubasic/BEBAS___-webfont.ttf) format('truetype');}
-	
-@font-face{
-    font-family:bostontraffic_webfont;
-    src:url(../font/bostontraffic_regular_ubasic/boston_traffic-webfont.ttf) format('truetype');}
-	
-@font-face{
-    font-family:capsuula_webfont;
-    src:url(../font/capsuula_regular_ubasic/Capsuula-webfont.ttf) format('truetype');}
-
-	@font-face{
-    font-family:capsuula_webfont;
-    src:url(../font/captureit_ubasic/Capsuula-webfont.ttf) format('truetype');}
-	*/
+*/
 	
 	.ui-navbar li .ui-btn { 
 	font-size: 1em;
@@ -360,13 +347,10 @@ div#preview {
  float: left;   
 }
 
-/*
-.20db .line {
-    font-family: '20db_webfont', arial, serif;
-    font-size: 2.125em;
+#preview div .line.capital {
+	text-transform: capitalize;
 }
 
-.archistico .line {
-    font-family: 'archistico_webfont', arial, serif;
-    font-size: 2.125em;
-} */
+#preview div .lower {
+	text-transform: lowercase;
+}
