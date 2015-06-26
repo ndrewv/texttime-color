@@ -310,6 +310,14 @@ $(document).ready(function () {
 			$('.line').each(function(){$(this).css('text-transform', 'lowercase')});
 		}
 	}
+	
+	/*load preview*/
+	changeAlign($('fieldset[name=align]').find('.ui-radio-on').data("align"));
+	$('#preview').css("background", $('#background').find(":selected").data("color"));
+	changeLineColor($('#foreground').find(":selected").data("color"));
+	$('#preview').attr('class', 'center '+ $('#fontstyle').find(":selected").data("font"));
+	changeDate($('#datestyle').find(":selected").val());
+	changeCapital($('fieldset[name=capital]').find('.ui-radio-on').data('capital'));
 
 	/*Change listeners*/	 
 	$('#background').on('change', function() {
@@ -398,6 +406,7 @@ $(document).ready(function () {
 				}
 			}
 		}
+		updatePreview();
 	</script>
 </body>
 </html>
