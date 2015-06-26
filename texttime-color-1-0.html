@@ -30,7 +30,7 @@
 							<div id="innerFrame" class="left">
 								<div id="preview" class="center bitham">
 									<div class="line" id="line_1" data-line="1">eleven</div>
-									<div class="line" id="line_2" data-line="2">thirty</div>
+									<div class="line" id="line_2" data-line="2">thirteen</div>
 									<div class="line" id="line_3" data-line="3">seven</div>
 									<div class="line" id="line_4" data-line="4">May 13</div>
 								</div>
@@ -211,12 +211,12 @@
 			<div data-role="fieldcontain">
 				<label for="align">Alignment:</label>
 				<fieldset data-role="controlgroup" name="align" data-type="horizontal">
-					<input type="radio" name="align" id="align_1" value="0"/>
-					<label for="align_1"  data-align="left">Left</label>
-					<input type="radio" name="align" id="align_2" value="1"/>
-					<label for="align_2" data-align="center">Centre</label>
-					<input type="radio" name="align" id="align_3" value="2"/>
-					<label for="align_3" data-align="right">Right</label>
+					<input type="radio" name="align" id="align_1" value="0" data-align="left"/>
+					<label for="align_1" >Left</label>
+					<input type="radio" name="align" id="align_2" value="1" data-align="center"/>
+					<label for="align_2">Centre</label>
+					<input type="radio" name="align" id="align_3" value="2" data-align="right"/>
+					<label for="align_3">Right</label>
 				</fieldset>
 			</div>
 				<div data-role="fieldcontain">
@@ -231,9 +231,9 @@
 					<label for="capital">Capitalize:</label>
 					<fieldset data-role="controlgroup"  name="capital" data-type="horizontal">
 						<input type="radio" name="capital" id="capital_1" value="0"/>
-						<label for="capital_1" data-capital="0">Yes</label>
+						<label for="capital_1">Yes</label>
 						<input type="radio" name="capital" id="capital_2" value="1"/>
-						<label for="capital_2" data-capital="1">No</label>
+						<label for="capital_2">No</label>
 					</fieldset>
 				</div>
 				<div data-theme="a" data-role="fieldcontain">
@@ -310,16 +310,17 @@ $(document).ready(function () {
 			$('.line').each(function(){$(this).css('text-transform', 'lowercase')});
 		}
 	}
-	
+		
 	/*load preview*/
-	changeAlign($('fieldset[name=align]').find('.ui-radio-on').data("align"));
 	$('#preview').css("background", $('#background').find(":selected").data("color"));
 	changeLineColor($('#foreground').find(":selected").data("color"));
 	$('#preview').attr('class', 'center '+ $('#fontstyle').find(":selected").data("font"));
 	changeDate($('#datestyle').find(":selected").val());
-	changeCapital($('fieldset[name=capital]').find('.ui-radio-on').data('capital'));
-
-	/*Change listeners*/	 
+	changeCapital($('input[type=radio][name=capital]:checked').val());
+	changeAlign($('input[type=radio][name=align]:checked').data("align"));
+	
+	
+	/*Change listeners*/
 	$('#background').on('change', function() {
 	$('#preview').css("background",$(this).find(":selected").data("color"));
 	});
@@ -332,17 +333,29 @@ $(document).ready(function () {
 	$('#preview').attr('class', 'center '+ $(this).find(":selected").data("font"));
 	});
 	
-	$('fieldset[name=align]').find('.ui-btn').on('click', function(){
-	changeAlign($(this).data("align"));
-	});
-	
 	$('#datestyle').on('change', function() {
 	changeDate($(this).find(":selected").val());
 	});
 	
+	$('input[type=radio][name=align]').on('change', function(){
+    changeAlign($(this).data("align"));
+	});
+	
+	$('input[type=radio][name=capital]').on('change', function(){
+    changeCapital($(this).val());
+	});
+	
+		/*$('fieldset[name=align]').find('.ui-btn').on('click', function(){
+	changeAlign($(this).data("align"));
+	});
+		
 	$('fieldset[name=capital]').find('.ui-btn').on('click', function(){
 		changeCapital($(this).data('capital'));
 	});
+	
+	changeCapital($('fieldset[name=capital]').find('.ui-radio-on').data('capital'));
+	changeAlign($('fieldset[name=align]').find('.ui-radio-on').data("align"));*/
+	
 });
 
 /*Form functions*/	 
@@ -406,7 +419,6 @@ $(document).ready(function () {
 				}
 			}
 		}
-		updatePreview();
 	</script>
 </body>
 </html>
